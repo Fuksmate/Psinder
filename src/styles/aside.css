@@ -2,5 +2,6 @@
     width: 24vw;
     height: 100vh;
     background-color: var(--color--white);
-
+    position: relative;
+    z-index: 200;
 }

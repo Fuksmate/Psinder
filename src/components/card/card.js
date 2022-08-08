@@ -21,6 +21,9 @@ export default function Card() {
       card.style.bottom = defaultPosition.y - e.clientY + "px";
       card.style.transform =
         "rotate(-" + (defaultPosition.x - e.clientX) / 30 + "deg)";
+      var test = card.getBoundingClientRect();
+      console.log(test);
+      console.log(e.clientY);
     }
   };
 
@@ -30,6 +33,7 @@ export default function Card() {
 
     card.style.right = "0px";
     card.style.bottom = "0px";
+    card.style.transform = "rotate(0deg)";
   };
   return (
     <div
