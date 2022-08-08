@@ -1,0 +1,65 @@
+.aside-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aside-nav-profil {
+    height: 100%;
+    padding: 2px 10px 2px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: var(--color--white);
+    border-radius: 20px;
+
+}
+
+.aside-nav-profil:hover {
+    background-color: #981E41;
+}
+
+.aside-nav-profil-img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-image: url("https://images-ssl.gotinder.com/62f13a9cc27c2b0100662221/172x216_75_85814588-d584-440c-b0f4-eb9d3cc464bc.webp");
+    background-position: 50% 2.27273%;
+    background-size: auto 125.581%;
+}
+
+.aside-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.aside-nav-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color--red-30);
+    margin: 0px 9px 0px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.aside-nav-item .icon {
+    color: var(--color--blue-05);
+    font-size: 20px;
+}
+
+.aside-nav-item:hover {
+    background-color: var(--color--red-40);
+    ;
+}

@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/header.css";
+import "../../styles/aside/aside-header.css";
+import AsideNav from "./aside-nav.js";
 
 export default function Header() {
   return (
     <header className="header">
-      <h1 className="header-title">Header</h1>
+      <AsideNav />
     </header>
   );
 }

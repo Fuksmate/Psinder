@@ -20,4 +20,12 @@ body {
   --color--white: #ffffff;
   --color--green-30: #21d07c;
   --color--blue-30: #78bdff;
+  --color--red-30: #c92150;
+  --color--red-40: #982E2E;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
 }

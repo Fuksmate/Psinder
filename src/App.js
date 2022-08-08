@@ -1,6 +1,6 @@
 import "./styles/App.css";
 import Card from "./components/card/card";
-import Aside from "./components/aside";
+import Aside from "./components/aside/aside";
 
 function App() {
   return (
