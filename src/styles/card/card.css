@@ -1,0 +1,30 @@
+.card {
+    width: 360px;
+    height: 600px;
+    margin-top: 20px;
+    background-color: var(--color--black);
+    border-radius: 10px;
+    position: relative;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /*background-image: url("https://images-ssl.gotinder.com/u/hycFUYZ8PySJeKsCuGJ6pi/9qKSqSsEcra8oz6GkrcEZG.webp?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6IiovdS9oeWNGVVlaOFB5U0plS3NDdUdKNnBpLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NjAzMTE4ODh9fX1dfQ__&Signature=MpWqpamNUW9s6ceya2fon-rVlKq~1NnHSDrnhlW7JgvAtqJ34szaMub9pGVfZ5gbRb3zLh5oMiv~~eXCPSCe7HIaaWXZsET8rjrgn5Opjq3lTPQzFB8xEvmz57-idg7ZX-~pRmJXZaJkbGoNqYDwGFUdA1~IfKYXUHaTeRTh4P2ZW-DSvrDXi62mwI1~jqc-3~eeGDnYK6p4DVfHEABp~4JjI5qCIQVU6EL40lXnsDBGwaXiFuWL3WRu0ZKOs~gzFKfPCJg2Tx0oiBha~qgZXD48ZGOrKasXPlQZIBDbYnogGtGXzLmA2SYek6rmJqc9dl-kze3ExM2TUXmY6m6VJQ__&Key-Pair-Id=K368TLDEUPA6OI"); */
+    background-image: url("https://images-ssl.gotinder.com/u/tYBEqvmynhBL8ATocJBt3C/aRa4dSc3CkKCzniuXhgoqa.webp?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6IiovdS90WUJFcXZteW5oQkw4QVRvY0pCdDNDLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NjAzMDEyNDR9fX1dfQ__&Signature=aOFJHxnjNItFis5E~axUmk0n-6WTWygVJEGG69yU2VLmb6j1GzZsgfioVm7NBBFAO0mxkMDoaY-C9CRTGWIuwY8UJ6gfeN33oCMLqgbuqfT8rNNx4mJovKQqqRnGmXsNqY3LTs2CkvxR4xpkZhh0jlHAdMAK7bxTggMHOmNQpjF21zT1yP5ULgS~3xT-6V~9ddDSYO81EDAuxImqCO5HPBQxbRDGWfYU7YyDRJeOnzFVhUMb51BdFp27iPv4YRqjEGMhOKAG-cRzZuHXYq3XrdvXegV9uZEdHoKEitbieDdyUXMdm8lt2sZg5cVZzem4ciqUIl0SXkEKWnCBWS8Zaw__&Key-Pair-Id=K368TLDEUPA6OI");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.card-image-shadow {
+    width: 100%;
+    height: 30%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: translateZ(0);
+    position: absolute;
+    pointer-events: none;
+    bottom: 16%;
+}
