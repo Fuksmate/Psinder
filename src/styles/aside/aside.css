@@ -18,6 +18,7 @@
 .aside-body-nav-item {
     padding: 0 16px;
     position: relative;
+    cursor: pointer;
 }
 
 
@@ -32,4 +33,11 @@
     width: 50%;
     background: var(--color--red-30);
     transition: .5s;
+}
+
+.aside-body-section {
+    height: 100%;
+    padding: 12px 20px 12px 4px;
+    display: flex;
+    overflow: hidden;
 }
