@@ -4,7 +4,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function CardContent() {
   return (
-    <div className="card-content">
+    <section className="card-content">
       <div className="card-content-title">
         <h2 className="card-content-title-name">Simba</h2> 20
       </div>
@@ -14,6 +14,6 @@ export default function CardContent() {
         <FaMapMarkerAlt className="card-content-location-icon" />
         Warszawa
       </div>
-    </div>
+    </section>
   );
 }

@@ -4,4 +4,32 @@
     background-color: var(--color--white);
     position: relative;
     z-index: 200;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    color: var(--color--text);
+}
+
+.aside-body-nav {
+    padding: 12px 20px 12px 4px;
+    display: flex;
+}
+
+.aside-body-nav-item {
+    padding: 0 16px;
+    position: relative;
+}
+
+
+.active::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: -5px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background: var(--color--red-30);
+    transition: .5s;
 }

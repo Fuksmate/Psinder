@@ -7,7 +7,11 @@ export default function Aside() {
     <aside className="aside">
       <AsideHeader />
       <div className="aside-body">
-        <p>aside body</p>
+        <nav className="aside-body-nav">
+          <p className="aside-body-nav-item active">Pieski</p>
+          <p className="aside-body-nav-item">Wiadomości</p>
+        </nav>
+        <section className="aside-body-section"></section>
       </div>
     </aside>
   );
